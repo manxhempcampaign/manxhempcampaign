@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/image.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.header-box {
+    background-color: rgba(26, 26, 26, 0.842);
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    width: 72em;
+    height: 11em;
+    margin-top: -5.5em;
+    margin-left: -35.5em;
+    border-radius: 15px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.inner-box {
+    border-bottom: 3px solid #ffffff;
+    border-top: 3px solid #ffffff;
+    width: 70.5em;
+    height: 9.25em;
+}
+
+.inner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.header-box h1 {
+    font-size: 610%;
+    font-weight: 500%;
+}
+
+.header-box h1 {
+    color: #ffffff;
+    font-family: 'Allerta Stencil';
+}
+
+.content {
+    position: absolute;
+    top: 28.5%;
+    left: 50%;
+    width: 72em;
+    height: 55em;
+    margin-top: -5.5em;
+    margin-left: -35.5em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.content p {
+    padding: 1% 5% 2% 1%;
+    font-family: 'Alegreya Sans SC';
+    color: #ffffff;
+    background-color: rgba(26, 26, 26, 0.897);
+    border-radius: 15px;
+    text-align: center
+}
+
+.content p {
+    font-size: 225%;
+    font-weight: 200px;
+}
+
+.vote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vote {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    height: 5em;
+    width: 72em;
+    margin-top: -5.5em;
+    margin-left: -35.5em;
+}
+
+.vote p {
+    background-color: red;
+    margin: 10px 20px 0 0;
+    font-family: 'Alegreya Sans SC';
+    color: #ffffff;
+    font-size: 525%;
+}
+
+.vote a {
+    text-decoration: none;
+}
+
+.share {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    height: 5em;
+    width: 72em;
+    margin-top: -5.5em;
+    margin-left: -35.5em;
+}
+
+.share {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-txt {
+    margin-right: 20px;
+    padding: 20px;
+    font-family: 'Alegreya Sans SC';
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: 200px;
+    background-color: rgba(26, 26, 26, 0.842);
+    border-radius: 15px 15px 0 0;
+}
